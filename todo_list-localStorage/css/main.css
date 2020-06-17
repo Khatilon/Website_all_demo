@@ -1,0 +1,95 @@
+*{
+	letter-spacing: 1px;
+	line-height: 2;
+	outline: none;
+}
+
+.todo-list{
+	background-image: url(https://picsum.photos/1920/1080/?random);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	padding:200px;
+	height: 1000px;
+}
+
+.todo-list h2{
+	color: #eee;
+	margin-bottom: 30px;
+}
+.todo-list .title{
+	margin-bottom: 50px;
+}
+
+.todo-list .btn{
+	margin-left: 10px;
+}
+
+.todo-list input{
+	width: 300px;
+	border-radius: 10px;
+}
+
+.todo-list ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+
+.todo-list li{
+	margin-bottom: 30px;
+	color: #eee;
+}
+
+.todo-list li a{
+	padding: 5px;
+	border: 1px solid #eee;
+	text-decoration: none;
+	color: #eee;
+	border-radius: 10px;
+}
+
+.todo-list li a:hover{
+	color: #d6b161;
+	border: 1px solid #d6b161;
+}
+
+.todo-list li .package{
+	padding:10px;
+	width: 300px;
+	margin: 0 auto; /*使得可以在width只等於70px後，左右置中*/
+	border: 1px solid #7e7e7e;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 10px;
+	cursor: pointer;   
+}
+
+.todo-list .hour,.todo-list .min{
+	width: 50px;
+	text-align: center;
+}
+
+.todo-list .subtitle .add-time{
+	color:#eee;
+}
+
+.todo-list .subtitle{
+	background-color: rgba(0,0,0,0.5);
+	width: 500px;
+	margin:0 auto;
+	border-radius: 20px;
+	padding:20px;
+}
+
+.todo-list .need-todo-number{
+	position: fixed;
+	top: 10px;
+	right:10px;
+	background-color: rgba(0,0,0,0.5);
+	padding:20px;
+	color: #eee;
+	border-radius: 20px;
+	cursor:pointer;
+
+}
+

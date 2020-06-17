@@ -1,0 +1,114 @@
+/*
+branding-color:#d6b161;
+
+*/
+
+
+
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+img.small{
+	width: 100%;
+	height: 200px;
+}
+
+section{
+	margin-top: 50px;
+}
+
+ul{
+	padding-left: 0
+}
+
+li{
+	list-style: none;
+	line-height: 3;
+}
+
+.col-xs-6{
+	margin-bottom: 30px;
+}
+
+
+.title{
+	margin-bottom: 50px;
+}
+
+.main-img{
+	margin-bottom: 50px;
+}
+
+#main-img{
+	padding:300px;
+	background-image: url("../five_part_image/a1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	width: 80%;
+	height: auto;
+	margin:0 auto;
+
+}
+
+.five-part .title{
+	margin-bottom: 50px;
+}
+
+
+a.intro-button{
+	text-decoration: none;
+	color: white;
+    background: black;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+a.intro-button:active,a.intro-button:hover{
+	text-decoration: none;
+	color: white;
+}
+
+
+.introContent{
+	display: none;
+	background-color: #eee;
+	padding:20px;
+	margin: 20px 0;
+	border-radius: 20px;
+	opacity: 0; 
+	transition: opacity 0.3s;
+	
+}
+
+.introContent.show{
+	display: block;
+}
+
+.showOp{
+	opacity: 1;
+
+}
+
+.resource{
+	margin:50px 0;
+}
+
+.person{
+	margin-bottom: 50px;
+}
+
+
+/*.slider*/
+
+.slider{
+	padding:400px;
+	background-image: url("../five_part_image/allperson.jpg");
+	background-size: cover;
+	background-repeat: none;
+	background-position: 50%;
+	background-attachment: fixed;
+}

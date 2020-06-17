@@ -1,0 +1,409 @@
+*{
+	font-size: 16px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+	padding:0 30px;
+}
+
+.row{
+	margin:0 -30px;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+li{
+	list-style-type: none;
+}
+
+section{
+	margin-top: 100px;
+}
+
+
+button:focus,button{
+	outline: none;
+}
+
+h1,h2,h3{
+	letter-spacing: 2px;
+}
+
+h1,h2{
+	margin-bottom: 0;
+	font-size: 24px;
+    font-weight: 300;
+
+}
+
+h3{
+	margin:0;
+}
+
+h6{
+	margin:0;
+	color: #323232;
+    font-weight: 400;
+}
+
+hr{
+	margin:0;
+}
+
+
+#nav .menu-out{
+	display: inline-block;
+	color: #333;
+	text-decoration: none;
+	padding:5px;
+	border-radius: 10px;
+	transition: 0.3s all;
+}
+
+#nav .menu-out:hover{
+	background-color: #333;
+	color: white;
+}
+
+#nav .menu-out i{
+	font-size: 40px;
+}
+
+.large-nav li a{
+	padding:10px;
+	color: #333;
+	text-decoration: none;
+	transition: 0.3s all;
+	
+}
+
+.large-nav li a:hover{
+	color: #d6b161;
+}
+
+.large-nav a.nav-special{
+	color: #d6b161;
+}
+
+.small-nav li{
+	border-bottom: 1px solid #7e7e7e;
+}
+
+.small-nav li a{
+	padding:10px;
+	color: #333;
+	text-decoration: none;
+	transition: 0.3s all;
+	line-height: 3;
+}
+
+.small-nav li a:hover{
+	color: #d6b161;
+}
+
+.small-nav li span{
+	color: #7e7e7e;
+    font-size: 12px;
+}
+
+
+
+
+#blog-left>div{
+	margin-top:80px;
+}
+
+#blog-left>div:last-child{
+	margin:80px 0;
+}
+
+#blog-right>div:first-child{
+	margin-top: 0;
+}
+
+#blog-left .title{
+	font-size: 16px;
+    font-weight: 400;
+}
+
+#blog-left hr{
+	margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+#blog-right hr{
+	margin:60px 0;
+}
+
+
+#blog-right h2{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+#blog-right h2>a{
+	color: #222;
+	text-decoration: none;
+	transition: 0.3s all;
+	font-size: 18px;
+}
+
+#blog-right h2>a:hover{
+	color: #d6b161;
+}
+
+#blog-right .post-date{
+	padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#blog-right .post-date h1{
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+#blog-right .post-date p{
+	font-size: 14px;
+}
+
+#blog-right .post-tag{
+	color: #a7a7a7;
+}
+
+#blog-right .post-tag li{
+	font-size: 12px;
+}
+
+#blog-right .post-tag a{
+	color: #a7a7a7;
+	font-size: 12px;
+	text-decoration: none;
+	transition: 0.3s all;
+}
+
+#blog-right .post-tag a:hover{
+	color: #d6b161;
+}
+
+#blog-right .post-content{
+	margin-top: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: #7e7e7e;
+}
+
+#blog-right .post-button{
+	display: inline-block;
+	padding: 10px 15px;
+    font-size: 12px;
+    letter-spacing: 1px;
+	text-decoration: none;
+    background-color: black;
+    color: white;
+    transition: 0.3s all;
+}
+
+#blog-right .post-button:hover{
+	background-color: #d6b161;
+}
+
+
+.social-media .list-inline-item{
+	margin-right: 0;
+}
+
+.social-media a{
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: #333;
+    margin-right: 8px;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.social-media a:hover{
+	background-color: #5a5a5a;
+	color: white;
+}
+
+.subtitle{
+	color: #837f7e;
+	text-decoration: none;
+	transition: 0.3s all;
+}
+
+.subtitle:hover{
+	color: #d6b161;
+	text-decoration: none;
+}
+
+
+/*gray*/
+
+.gray{
+	width: 100%;
+	background-color: #f5f5f5;
+	padding:80px 0;
+	margin-top: 0;
+}
+
+
+.bread{
+	text-align: center;
+}
+
+.bread .title{
+	color: #222;
+}
+#breadcurmbs a{
+	font-size: 14px;
+    color: #7e7e7e;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+#breadcurmbs a:hover{
+	color: #222;
+}
+
+#breadcurmbs li{
+	font-size: 14px;
+    color: #222;
+    margin:0;
+}
+
+#breadcurmbs li:after{
+	content: "/";
+	padding:0 12px;
+}
+
+#breadcurmbs li:last-child:after{
+	content: "";
+	padding:0;
+}
+
+/*blog-left*/
+
+#blog-left input{
+	border: 1px solid #e5e5e5;
+    padding: 10px;
+    transition: 0.3s all;
+    height: 40px;
+}
+
+#blog-left input:focus{
+	outline: none;
+	border: 1px solid #333;
+}
+.search-row{
+	position: relative;
+}
+.search-row a{
+	position: absolute;
+    line-height: 40px;
+    right: 5px;
+    width: 30px;
+    text-align: center;
+    color: #e5e5e5;
+}
+
+.search-row a i{
+	font-size: 20px;
+}
+
+
+.blog-content{
+	margin:20px 0;
+	line-height: 2;
+	color: #7e7e7e;
+
+}
+
+
+/*latest post*/
+.latest-post .subtitle{
+	color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: 0.3s all;
+}
+
+.latest-post .subtitle:hover{
+	color: #d6b161;
+}
+
+.latest-post .date{
+    color: #9b9a9a;
+}
+
+/*Tag-cloud*/
+
+
+
+.tag-cloud .tag{
+	display: inline-block; /*let the a have width and height*/
+	padding: 7px;
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #837f7e;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.tag-cloud .tag:hover{
+	color: white;
+	background-color: #d6b161;
+}
+
+.tag-cloud li{
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+/*footer*/
+#footer{
+	width: 100%;
+	padding:50px 0;
+	background-color: #f5f5f5;
+
+}
+
+#footer .footer-tag{
+	color: #333;
+	text-decoration: none;
+	transition: 0.3s all;
+}
+
+#footer .footer-tag:hover{
+	color: #d6b161;
+}
+
+#go-to-top a{
+	position: fixed;
+    right: 10px;
+    bottom: 10px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+

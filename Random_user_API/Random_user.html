@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Random user</title>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">	
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">		   
+	<link rel="stylesheet" href="css/main.css" type="text/css" media="screen">	
+
+
+	<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>  
+	<!--Jquery must be include before the boostrap.js-->
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script> <!--axios import-->
+	<script src="js/all.js"></script>
+</head>
+<body>
+	<section class="RandomAPI">
+		<div class="container">
+			<div class="row clearfix">
+				<div class="col-12 title text-center">
+					<h2>Random people API</h2>
+					<input type="text" id="personCount" placeholder="How many people ?">
+				</div>
+				<div class="col-12 person">
+					<div class="row text-center">
+						<!-- <div class="col-4">
+							<img src="https://picsum.photos/id/237/500/400" alt="" class="img-fluid">
+							<h3>name</h3>
+							<a href="#">email</a>
+						</div> -->
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<section class="imgShow"> 
+		<div></div>
+			<img src="https://picsum.photos/200/300?random=2" alt="">
+		</div>
+	</section>
+</body>
+</html>

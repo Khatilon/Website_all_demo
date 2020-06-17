@@ -1,0 +1,65 @@
+*{
+	letter-spacing: 1px;
+	line-height: 2;
+
+}
+
+
+.battery-selector ul{
+	list-style: none;
+    padding-left: 0;
+
+}
+
+.battery-selector li{
+	margin-bottom: 30px;
+	padding:10px;
+	border-radius: 20px;
+	transition: all 0.2s linear;
+}
+
+.battery-selector li:hover{
+	background-color: #111;
+	color:#d6b161;
+	cursor: pointer;
+}
+
+.battery-head{
+	margin-bottom: 50px;
+}
+
+.battery-title{
+	margin-bottom: 20px;
+	padding: 50px;
+	background-image:url(https://picsum.photos/1920/1080);
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	background-size: cover;
+
+}
+
+.battery-title h2{
+	color: #eee;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.battery-selector .result{
+	margin-bottom: 50px;
+} 
+
+.battery-selector .location{
+	width: 300px;
+    padding: 10px 10px;
+    background-color: #eee;
+    font-size: 18px;
+    font-weight: bold;
+    color: #112;
+    border-radius: 20px;
+}
+
+.battery-subtitle{
+	border: 2px solid #eee;
+    padding: 20px;
+    font-weight: lighter;
+}

@@ -1,0 +1,56 @@
+*{
+	outline: none;
+}
+
+input{
+	padding:10px;
+	border-style: none;
+}
+
+
+.big-title{
+	color: #7e7e7e;
+}
+
+.hidden,.hidden-fail{
+	display: none;
+	margin-top: 50px;
+}
+
+
+.account,.password{
+	width: 300px;
+	height: 40px;
+    border-radius: 10px;
+}
+
+.account-password{
+	margin-bottom: 20px;
+}
+
+.enter,.send{
+	width: 100px;
+	font-size: larger;
+	margin:0 10px;
+	border-radius: 10px;
+	background-color: #eee;
+	transition: all 0.3s linear;
+}
+
+.enter:hover,.send:hover{
+	background-color: black;
+	color:#d6b161;
+}
+
+.signin_signup{
+	background-image: url(https://picsum.photos/1920/1080/?random);
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	background-size: cover;
+	height: 1000px;
+}
+
+.signin_signup .title{
+	color: #eee;
+    font-size: xx-large;
+}
